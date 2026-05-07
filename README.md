@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Framework](https://img.shields.io/badge/.NET-10-blueviolet?style=for-the-badge)
 # Cyber Defender CG Version 1.0
 
 Welcome to the Cyber Defender. This project is a fantasy-themed Card Game (CG) centered
