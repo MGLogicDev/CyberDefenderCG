@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cyber_DefenderTCG.Properties.Resources" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jm+KzYx5RUCAOgyFAH0zckpipZw62p0bI+jTDwTIyaY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.AudioManager" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAggQAIQAAAAJCAAAQAAAAAAIAAgAIgAAAAg=</HashCode>
+      <FileName>Classes\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.Card" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAQAAAAAABAAAAAAAAAAAAAgAAAQ=</HashCode>
+      <FileName>Classes\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.DefenseCard" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Classes\DefenseCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.GameEngine" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCQgAEISAAAgEAAAAAAOAQAEAAEgEACAAAAIAIAA=</HashCode>
+      <FileName>Classes\GameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.Helper" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAgAAAAAgABgACBAsAAAQIAAAAAAAACBAwAAA=</HashCode>
+      <FileName>Classes\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.Program" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACAAACAQAACCCBCAAABBEAgBEAAAiARACAAAA=</HashCode>
+      <FileName>Classes\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.ThreatCard" Collapsed="true">
+    <Position X="4.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAIAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ThreatCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.User" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQCCAAAACAAUAAAAgACABAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.CardsScreen" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAUAAAQECAAABAAAAGgAAgCgCoBAAAAgGAAABBCAGA=</HashCode>
+      <FileName>CardsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.EasyGameScreen" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAYAQARQGCEIBwAEAOAAgAigAIAIACAgXkAIgBAACA=</HashCode>
+      <FileName>EasyGameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.HardGameplayScreen" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAYAAARQGCEAHwAAAOAAgIigAIAIACAgXkAIhBAACA=</HashCode>
+      <FileName>HardGameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.LoadingScreen" Collapsed="true">
+    <Position X="12.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAECAAAAEAAACAAAACACAAAAEAAAAAAQAAACA=</HashCode>
+      <FileName>LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.LoginScreen" Collapsed="true">
+    <Position X="12.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgCAAAAQACAAAAAAACCAAAACAAAAAAAAAAAABAAAgGI=</HashCode>
+      <FileName>LoginScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.MainMenuScreen" Collapsed="true">
+    <Position X="14.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEBEAATACAAARCAAAGaIYATgmAAIGgAgGEAIABACKA=</HashCode>
+      <FileName>MainMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.MediumGameplayScreen" Collapsed="true">
+    <Position X="14.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAYAAARQGCEIDwAAAOAAgAigAIAIACAgXkAIhBAACA=</HashCode>
+      <FileName>MediumGameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.NotesScreen" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiAEAAAQ0CAAADABAAmgAAgGiCkIADAAgMAAQIBAAiE=</HashCode>
+      <FileName>NotesScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.ResultScreen" Collapsed="true">
+    <Position X="16.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAgB4RACAAABJAAAGAgAATgCQAJAAAiEAIAAACASA=</HashCode>
+      <FileName>ResultScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.SettingsScreen" Collapsed="true">
+    <Position X="16.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoCAIFAw0CEAABAAAACAgAACQCAQAgAAgAAAABAAACA=</HashCode>
+      <FileName>SettingsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.SignInScreen" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEQAAAQQCAAIBgAAAiAAAACQgAAAAEAgAAAAAAAAKA=</HashCode>
+      <FileName>SignInScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.SignUpScreen" Collapsed="true">
+    <Position X="10" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgFQAAIQQCEAIBgAAAi8AAACwgAACAAAgIAAEAACACA=</HashCode>
+      <FileName>SignUpScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.SplashScreen" Collapsed="true">
+    <Position X="16.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACABAAAAKASAACACAAAACAkAQAAAAAAgAAA=</HashCode>
+      <FileName>SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.StatisticsScreen" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Q6QMCIAwhSCKQBAYAAHgAIACgyAGAAACyHAAUCAhACA=</HashCode>
+      <FileName>StatisticsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="13.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.ContainerControl" Collapsed="true">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.ScrollableControl" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.Control" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cyber_DefenderTCG.EndlessGameScreen" Collapsed="true">
+    <Position X="10" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAYAAARQGCEAHwAAAOAAgIigAIAIACAgXkAIhBAACA=</HashCode>
+      <FileName>EndlessGameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.Anomaly" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Anomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.Classes.AnomalyManager" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCBAAQABCAACACEAAAAQAAAAAIAAAAAISAAAAEAAA=</HashCode>
+      <FileName>Classes\AnomalyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.AdminLoadingScreen" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAECAAAAEAAACAAAACACAAAAEAAAAAAQAAACA=</HashCode>
+      <FileName>AdminLoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.AdminMainMenu" Collapsed="true">
+    <Position X="10" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAEQATACAAAxAAAAWCIYATgGAAIGgAgEAEAABACKA=</HashCode>
+      <FileName>AdminMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.AnalyticsScreen" Collapsed="true">
+    <Position X="12.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gyiGCEAQACAAQAgIAADgAIACACKAAAgCgAkAQAgJICA=</HashCode>
+      <FileName>AnalyticsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.ProfileScreen" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAEAAAQQCAAABAAAAmkAAgCAiEAAAAAgCAQAAAgACA=</HashCode>
+      <FileName>ProfileScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.ReviewsScreen" Collapsed="true">
+    <Position X="16.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiCECCEQYGgAQAQAhAnpEMICgCAAASAEoGIAQAMBAPA=</HashCode>
+      <FileName>ReviewsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cyber_DefenderTCG.TutorialScreen" Collapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQAGAAABAAAQGBAAAiAAAAAAAAgKABACBAADA=</HashCode>
+      <FileName>TutorialScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

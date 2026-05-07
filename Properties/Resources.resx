@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Banner.png_no_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Banner.png_no_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CardScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CardScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CyberDefenderIiconImage.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CyberDefenderIconColoredt.png_no_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuBgMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\cyberpunk-street.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GamePlayScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\GamePlayScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginScreenBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\LoginScreenBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuScreen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\MainMenuScreen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProfileScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ProfileScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Gemini_Generated_Image_v7nmqcv7nmqcv7nm-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SplashScreen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SplashScreen2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreenSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Level_One_Dawn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Botnet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Botnet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BruteForce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\BruteForce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CredentialSurfing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CredentialSurfing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CyberLibel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CyberLibel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CyDAssistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CyDAssistant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataBreach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DataBreach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDoSAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DDoSAttack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EvilTwin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\EvilTwin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IdentityTheft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\IdentityTheft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JuiceJacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\JuiceJackingpng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KeyLogger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\KeyLogger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaliciousLink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\MaliciousLink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManInTheMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ManInTheMiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phishing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Phishing_Smishing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pretexting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Pretexting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ransomware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Ransomware.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShoulderSurfing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ShoulderSurfing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smishing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Smishing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQLInjection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SQLInjection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TypoSquatting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\TypoSquatting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CancelSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\cancel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CardSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Card.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CorrectSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Correct.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IncorrectSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Incorrect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LoseSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\lose.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClickSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\pop_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClickSound2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\select_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WinSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\win.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ButtonBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResultScreenBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ResultScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SocialEngineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SocialEngineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DriveByDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DriveByDownload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrojanHorse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\TrojanHorse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalamiAttack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SalamiAttack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogicBomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\LogicBomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vishing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Vishing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIMSwapping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SIMSwapping.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scareware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Scareware.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormJacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\FormJacking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whaling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Whaling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryptoJacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CryptoJacking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IoTHacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\IoTHacking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmailHeaderInspector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\EmailHeaderInspector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DigitalEvidenceLog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DigitalEvidenceLog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CICCPNPReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CICCPNPReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImmutableColdBackup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ImmutableColdBackup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PreparedStatements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\PreparedStatements.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DDoSMitigationCDN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DDoSMitigationCDN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoFactorAuth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\TwoFactorAuth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataPrivacyAudit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DataPrivacyAudit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USBDataBlocker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\USBDataBlocker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrivacyScreenFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\PrivacyScreenFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VPNTunnel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\VPNTunnel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OfficialAppVerify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\OfficialAppVerify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SocialAwareness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SocialAwareness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountLockout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\AccountLockout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PasswordManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\PasswordManager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FirmwarePatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\FirmwarePatch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HTTPSSSLCertificate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\HTTPSSSLCertificate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookmarkManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\BookmarkManager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrowserSandbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\BrowserSandbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodeReviewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CodeReviewer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIMCarrierLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SIMCarrierLock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AltF4Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\AltF4Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContentSecurityPolicy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ContentSecurityPolicy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdBlocker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\AdBlocker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DefaultPasswordReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DefaultPasswordReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TailgateAlarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\TailgateAlarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetworkSegmenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\NetworkSegmenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrameBusterScript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\FrameBusterScript.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocumentShredder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DocumentShredder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EstablishFamilyCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\EstablishFamilyCode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrincipleOfLeastPrivilege" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\PrincipleOfLeastPrivilege.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OAuth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\OAuth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InputSanitizer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InputSanitizer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountDeletion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\AccountDeletion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BluetoothVisibilityOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\BluetoothVisibilityOFF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SecureDNS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SecureDNS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VirtualMachine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\VirtualMachine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BoottimeScanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\BoottimeScanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PowershellMonitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\PowershellMonitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThreatIntelligence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ThreatIntelligence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="female" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThreatCardbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ThreatCardbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DefenseCardbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DefenseCardbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuGifTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\MainMenuGifTest.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tailgating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Tailgating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Worm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Worm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacketSniffing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\PacketSniffing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Malvertising" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Malvertising.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clickjacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Clickjacking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DumpsterDiving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DumpsterDiving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Baiting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeepfakeScam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DeepfakeScam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsiderThreat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InsiderThreat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APIExploitation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\APIExploitation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\XSS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ZombieAccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchEnginePoisoning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SearchEnginePoisoning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bluesnarfing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Bluesnarfing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pharming" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Pharming.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WateringHole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\WateringHole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rootkit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Rootkit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilelessMalware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\FilelessMalware.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoneyToken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\HoneyToken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScriptKiddie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ScriptKiddie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SystemDrifter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SystemDrifter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataFreelancer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\DataFreelancer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CyberSentinel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CyberSentinel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Netrunner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Netrunner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrandArchitect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\GrandArchitect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CyberDefenderIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CyberDefenderIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\T21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
